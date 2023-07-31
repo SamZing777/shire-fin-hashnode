@@ -1,0 +1,17 @@
+{
+  "providers": [
+    "awscloudformation"
+  ],
+  "projectName": "ShireFin",
+  "version": "3.1",
+  "frontend": "javascript",
+  "javascript": {
+    "framework": "react-native",
+    "config": {
+      "SourceDir": "shireFin",
+      "DistributionDir": "/",
+      "BuildCommand": "react-native run-android",
+      "StartCommand": "react-native start"
+    }
+  }
+}

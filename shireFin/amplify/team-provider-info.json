@@ -1,0 +1,15 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": process.env.role,
+      "UnauthRoleArn": process.env.roleUnAuth,
+      "AuthRoleArn": process.env.roleArn,
+      "Region": process.env.region,
+      "DeploymentBucketName": process.env.bucket,
+      "UnauthRoleName": process.env.unauthRoleName,
+      "StackName": process.env.staging,
+      "StackId": process.env.stackId,
+      "AmplifyAppId": process.env.Id
+    }
+  }
+}
